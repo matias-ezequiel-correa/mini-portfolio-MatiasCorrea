@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+    <title>Mini Portfólio - Matías Correa</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Matías Ezequiel Correa</h1>
+            <h2 class="cargo">Desenvolvedor FullStack Jr</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Matías Correa e sou um <span>desenvolvedor fullstack!</span></p>
+                        <br>
+                        <p>
+                            Sou estudante de <span>Engenharia da Computação</span> e, além de estar fazendo minha
+                            formação superior, sou formado em <span>Técnico em Mecatrônica</span>. Ademais, devido às experiências internacionais que realizei, tenho a capacidade de me adaptar facilmente a diferentes
+                            ambientes, como também, consigo me comunicar em 4 línguas (Espanhol, Português,Francês e Inglês).
+                        </p>
+                        <br>
+                        <p>
+                            Possuo conhecimentos em programação, como <span>JavaScript, HTML5, CSS3, React, Typescript, Redux, Jest, PostgreSQL, Node.js, Express.js, PrismaORM, Python, C++ e Java</span>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://drive.google.com/file/d/1yTixnwAjBWlhhbAXJy_wj93ADGstjuLr/view?usp=sharing"
+                                target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/matias-ezequiel-correa/" target="_blank"
+                                class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/matias-ezequiel-correa" target="_blank"
+                                class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
