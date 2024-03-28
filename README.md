@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://i.ibb.co/vPfSth8/M.png" width="100" />
+  <img alt="Logo" src="https://i.ibb.co/vPfSth8/M.png" width="100"/>
 </div>
 <h1 align="center">
   Matías Correa - Mini Portfólio <img src="https://i.ibb.co/zQ9KsTy/file-folder-1f4c1.png">  
